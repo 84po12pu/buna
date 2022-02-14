@@ -1,4 +1,4 @@
-'use ctrict';
+'use strict';
 
 //スクロール
 window.onscroll = function(evt) {
