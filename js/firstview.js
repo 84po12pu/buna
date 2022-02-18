@@ -1,4 +1,4 @@
-'use ctrict';
+'use strict';
 
 $('.slider-fv').slick({
     fade: true, //切り替えをフェードで行う。初期値はfalse。

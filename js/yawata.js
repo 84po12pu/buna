@@ -1,4 +1,4 @@
-'use ctrict';
+'use strict';
 
 //spotのスライド
 function checkBreakPoint() {
