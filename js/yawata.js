@@ -1,8 +1,8 @@
-'use trict';
+'use strict';
 
 //spotのスライド
 function checkBreakPoint() {
-    w = $(window).width();
+    var w = $(window).width();
     if (w < 750) {
         $('.slider').slick({
             autoplay: true, //自動的に動き出すか。初期値はfalse。

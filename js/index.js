@@ -1,10 +1,10 @@
-'use trict';
+'use strict';
 
 
 // index用のjs
 
 function checkBreakPoint() {
-    w = $(window).width();
+    var w = $(window).width();
     if (w <= 1024) {
         $('.slider').slick({
             fade: true, //切り替えをフェードで行う。初期値はfalse。
