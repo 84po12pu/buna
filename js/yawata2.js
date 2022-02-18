@@ -1,4 +1,4 @@
-'use strict';
+'use ctrict';
 
 
 // animalのスライド
