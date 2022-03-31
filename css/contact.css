@@ -198,13 +198,31 @@ textarea {
     width: 80%;
     height: 150px;
     border: 1px solid rgb(85, 81, 81); 
-    overflow-y: scroll;     
+    overflow-y: scroll;
     /* overflow: auto; */
     margin: 10px auto 10px auto; 
     background-color: rgba(255, 255, 255, .5); 
     padding: 1.5em;
-    border-radius: 8px;
+    border-radius: 10px;
 }
+
+/* スクロールの幅の設定 */
+.scroll-area::-webkit-scrollbar {
+    width: 15px;
+   }
+    
+   /* スクロールの背景の設定 */
+   .scroll-area::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(110, 108, 108, 0.2);
+   }
+    
+   /* ドラックできるスクロール部の設定 */
+   .scroll-area::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    height: 50px;
+    background: #28A1B5;
+   }
 
 /* .scroll-area::-webkit-scrollbar-thumb {
     border-radius: 10px;
