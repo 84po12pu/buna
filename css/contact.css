@@ -12,33 +12,33 @@ body {
 .drawer-open span,
 .drawer-open span:before,
 .drawer-open span:after {
-  content: '';
-  display: block;
-  height: 3px;
-  width: 17px;
-  border-radius: 3px;
-  background: #515151;
-  transition: 0.5s;
-  position: absolute;
+    content: '';
+    display: block;
+    height: 3px;
+    width: 17px;
+    border-radius: 3px;
+    background: #515151;
+    transition: 0.5s;
+    position: absolute;
 }
 
 .drawer-open span:before {
-  background: #515151;
-  width: 25px;
-  left: -4px;
-  bottom: 8px;
+    background: #515151;
+    width: 25px;
+    left: -4px;
+    bottom: 8px;
 }
 
 .drawer-open span:after {
-  background: #515151;
-  width: 25px;
-  top: 8px;
-  left: -4px;
+    background: #515151;
+    width: 25px;
+    top: 8px;
+    left: -4px;
 }
 
 .title1 {
     display: none;
-} 
+}
 
 .title2 {
     font-size: 30px;
@@ -145,36 +145,23 @@ textarea {
     display: inline;
 }
 
-.pr-button {
-    color: #fff;
-    background: #333;
-    width: 250px;
-    margin: 50px auto 0 auto;
-    border-radius: 4px;
-}
-.pr-button:hover {
-    border: 2px solid #333;
-    background: #fff;
-    color: #333;
-}
-
 
 /* Privacypolicy
 -----------------------------------------------------*/
 
-.privacy-title{
+.privacy-title {
     font-size: 16px;
     margin-top: 50px;
     text-align: center;
 }
 
-.scroll-area h2{
+.scroll-area h2 {
     font-size: 16px;
     margin-bottom: 10px;
 }
 
 
-.scroll-area p{
+.scroll-area p {
     font-size: 14px;
     /* line-height: 1.87; */
     padding-bottom: 20px;
@@ -189,6 +176,7 @@ textarea {
     list-style-type: disc;
     margin-left: 20px;
 }
+
 .mp {
     display: none;
 }
@@ -196,38 +184,33 @@ textarea {
 
 .scroll-area {
     width: 80%;
-    height: 150px;
-    border: 1px solid rgb(85, 81, 81); 
+    height: 200px;
+    border: 1px solid #333;
     overflow-y: scroll;
     /* overflow: auto; */
-    margin: 10px auto 10px auto; 
-    background-color: rgba(255, 255, 255, .5); 
+    margin: 10px auto 10px auto;
+    /* background-color: rgba(255, 255, 255, .5); */
     padding: 1.5em;
     border-radius: 10px;
 }
 
-/* スクロールの幅の設定 */
+/* スクロールバーの幅の設定 */
 .scroll-area::-webkit-scrollbar {
     width: 15px;
-   }
-    
-   /* スクロールの背景の設定 */
-   .scroll-area::-webkit-scrollbar-track {
+}
+
+/* スクロールバーの背景の設定 */
+.scroll-area::-webkit-scrollbar-track {
     border-radius: 10px;
     background: rgba(110, 108, 108, 0.2);
-   }
-    
-   /* ドラックできるスクロール部の設定 */
-   .scroll-area::-webkit-scrollbar-thumb {
+}
+
+/* ドラックできるスクロール部分の設定 */
+.scroll-area::-webkit-scrollbar-thumb {
     border-radius: 10px;
     height: 50px;
     background: #28A1B5;
-   }
-
-/* .scroll-area::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background: #FA7644;
-} */
+}
 
 /* レスポンシブ 750px~
 -----------------------------------------------------*/
@@ -287,6 +270,7 @@ textarea {
         /* font-size: 14px; */
         width: 60%;
     }
+
     /* .scroll-area h2 {
         font-size: 16px;
     } */
