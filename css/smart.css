@@ -133,6 +133,12 @@ section {
     .title2 {
         font-size: 20px;
     }
+
+    .mirai {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+    
 }
 
 
@@ -164,10 +170,6 @@ section {
         font-size: 20px;
     }
 
-    .mirai {
-        padding-left: 180px;
-        padding-right: 180px;
-    }
 
 
 
