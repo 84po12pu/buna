@@ -39,8 +39,8 @@ section .wrapper {
   line-height: 1.78;
   font-size: 14px;
   text-align: center;
-  transition: 0.5s;
   width: 260px;
+  transition: 0.5s;
 }
 
 .button:hover {
@@ -62,7 +62,7 @@ section .wrapper {
   overflow: hidden;
   /* background-image: url(../img/main_bottom.png); */
   /* background-position: center bottom 30px; */
-  /* background-size: auto 30%;  */
+  /* background-size: auto 30%; */
   /* background-size: 120%; */
   text-align: center;
 }
@@ -118,10 +118,7 @@ section .wrapper {
   font-size: 16px;
   text-align: center;
   color: #fff;
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
   z-index: 20;
-
 }
 
 .title2::before {
@@ -250,7 +247,6 @@ section .wrapper {
   z-index: 500;
 }
 
-
 /* Avoid Chrome to see Safari hack */
 /* @supports (-webkit-touch-callout: none) {
   body { */
@@ -297,7 +293,6 @@ section .wrapper {
 }
 
 h4 {
-  /* font-weight: normal; */
   font-size: 18px;
 }
 
@@ -387,16 +382,9 @@ video {
 
 
 
-
-
-
-
-
 /* レスポンシブ
 -----------------------------------------------------*/
 @media (min-width: 600px) {
-
-
 
   /* section info
 ---------------------------------*/
@@ -412,8 +400,10 @@ video {
   }
 
 
+  
   /* section rice
 ---------------------------------*/
+
   .rice {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -436,11 +426,9 @@ video {
 
   .rice-img {
     display: block;
-    /* width: 46%; */
   }
 
   .kome-right {
-    /* width: 46%; */
     width: 80%;
   }
 
@@ -567,8 +555,6 @@ video {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
-    /* display: flex;
-  justify-content: center; */
   }
 
   section {

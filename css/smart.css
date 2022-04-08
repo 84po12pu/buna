@@ -20,10 +20,6 @@ section {
     max-width: 1260px;
 }
 
-/* video {
-    display: inline-block;
-} */
-
 
 
 /* header
@@ -71,7 +67,6 @@ section {
 
 .title1 {
     display: none;
-    /* width: 200px; */
 }
 
 .title2 {
@@ -117,7 +112,6 @@ section {
     padding-top: 50px;
 }
 
-
 /* section mirai
 -----------------------------------------------------*/
 .mirai p {
@@ -127,6 +121,9 @@ section {
 .mirai p+p {
     margin-top: 40px;
 }
+
+
+
 
 
 @media (min-width: 750px) {
@@ -140,6 +137,9 @@ section {
     }
     
 }
+
+
+
 
 
 @media (min-width: 1025px) {
@@ -170,9 +170,5 @@ section {
         font-size: 20px;
     }
 
-
-
-
 }
-
 /* 1025ここまで */

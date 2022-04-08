@@ -49,10 +49,8 @@ img {
   justify-content: center;
 }
 
-
 .fade {
   animation: fadeIn 3s ease;
-  /* animation: fadeIn 3s ease 0.3s 1; */
 }
 
 @keyframes fadeIn {
@@ -184,7 +182,6 @@ img {
 #drawer-check:checked~.gnavi {
   left: 0;
   position: fixed;
-  
 }
 
 /* footer
@@ -231,13 +228,6 @@ footer .img-box img{
   width: 100%;
 }
 
-.privacy {
-  color: #333;
-}
-
-.privacy:hover {
-  text-decoration: underline;
-}
 
 
 /* スクロール
@@ -266,16 +256,12 @@ footer .img-box img{
 
 
 
-
-
 /* レスポンシブ
 -----------------------------------------------------*/
 @media (min-width: 600px) {}
 
 /* 600ここまで
 -----------------------------------------------------*/
-
-
 
 
 
@@ -290,9 +276,7 @@ footer .img-box img{
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    /* height: 100px; */
     height: 80px;
-    /* background-color: rgba(238, 236, 178, .5); */
     background-color: rgba(255, 255, 255, .5);
     width: 100%;
     position: fixed;
@@ -320,7 +304,6 @@ footer .img-box img{
   }
 
   .gnavi-item {
-    /* width: 200px; */
     border: none;
     width: fit-content;
     margin-bottom: 10px;
@@ -335,7 +318,6 @@ footer .img-box img{
     width: calc(521px / 7);
     background-image: url(../img/nav_come.png);
     background-size: contain;
-    /* padding: 0 10px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -345,7 +327,6 @@ footer .img-box img{
 
   .gnavi-link:hover {
     transform: rotate(-30deg);
-    /* animation:spin 1s 1; */
   }
 
   .gnavi-link-smart::after {
@@ -358,13 +339,6 @@ footer .img-box img{
 
  /* header
 -----------------------------------*/
-  /* .black {
-    display: block;
-  }
-  
-  .white {
-    display: none;
-  } */
 
   /* footer
 -----------------------------------*/
